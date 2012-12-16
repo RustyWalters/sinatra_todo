@@ -18,6 +18,7 @@ class List
   has n, :tasks, :constraint => :destroy
 end
 DataMapper.finalize
+DataMapper.auto_migrate!
 
 get '/styles.css' do
   scss :styles
