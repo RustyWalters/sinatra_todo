@@ -60,6 +60,7 @@ GEM
     json (1.7.5)
     json_pure (1.7.5)
     multi_json (1.5.0)
+    pg (0.14.1)
     rack (1.4.1)
     rack-protection (1.3.2)
       rack
@@ -83,6 +84,7 @@ DEPENDENCIES
   datamapper
   dm-postgres-adapter
   dm-sqlite-adapter
+  pg
   sass
   sinatra
   slim
